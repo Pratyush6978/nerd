@@ -113,21 +113,21 @@ function saturdayShow() {
 if (td == 1) {
     mondayShow()
 }
-else if (td == 2) {
+if (td == 2) {
     mondayShow()
 }
-else if (td == 3) {
+if (td == 3) {
     wednesdayShow()
 }
-else if (td == 4) {
+if (td == 4) {
     thursdayShow()
 }
-else if (td == 5) {
+if (td == 5) {
     fridayShow()
 }
-else if(td == 6){
+if(td == 6){
     saturdayShow()
 }
-else if(td == 0){
+if(td == 0){
     sundayShow()
 }
