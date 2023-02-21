@@ -74,6 +74,7 @@ friday = {
 }
 
 let td = new Date().getDay();
+console.log(td);
 classes = document.getElementById("routine");
 
 function mondayShow() {
