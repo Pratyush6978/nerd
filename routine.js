@@ -74,7 +74,6 @@ friday = {
 }
 
 let td = new Date().getDay();
-console.log(td);
 classes = document.getElementById("routine");
 
 function mondayShow() {
@@ -115,7 +114,7 @@ if (td == 1) {
     mondayShow()
 }
 if (td == 2) {
-    mondayShow()
+    tuesdayShow()
 }
 if (td == 3) {
     wednesdayShow()
