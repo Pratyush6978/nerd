@@ -7,12 +7,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
-        #break {
-            color: rgb(43, 39, 39);
+        #buttons{
+            cursor: pointer;
+            border-radius: 5px;
+            padding-top: 3px;
+            padding-bottom: 3px;
+            padding-left: 5px;
+            padding-right: 5px;
         }
-
-        #time {
-            visibility: collapse;
+        #buttons:hover{
+            background-color: rgb(210, 232, 241);
         }
     </style>
     <title>Routine</title>
@@ -26,13 +30,12 @@
 
                 <span class="ml-3 text-xl">Khumbutse Routine</span>
             </a>
-            <nav
-                class="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-400	flex flex-wrap items-center text-base justify-center">
-                <a class="mr-5 hover:text-gray-900" onclick="mondayShow()">Monday</a>
-                <a class="mr-5 hover:text-gray-900" onclick="tuesdayShow()">Tuesday</a>
-                <a class="mr-5 hover:text-gray-900" onclick="wednesdayShow()">Wednesday</a>
-                <a class="mr-5 hover:text-gray-900" onclick="thursdayShow()">Thursday</a>
-                <a class="mr-5 hover:text-gray-900" onclick="fridayShow()">Friday</a>
+            <nav class="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-400	flex flex-wrap items-center text-base justify-center">
+                <a class="mr-5 hover:text-gray-900" onclick="mondayShow()" id="buttons">Monday</a>
+                <a class="mr-5 hover:text-gray-900" onclick="tuesdayShow()" id="buttons">Tuesday</a>
+                <a class="mr-5 hover:text-gray-900" onclick="wednesdayShow()" id="buttons">Thursday</a>
+                <a class="mr-5 hover:text-gray-900" onclick="thursdayShow()" id="buttons">Wednesday</a>
+                <a class="mr-5 hover:text-gray-900" onclick="fridayShow()" id="buttons">Friday</a>
             </nav>
             <a href="https://calendar.google.com/calendar/"><button class="inline-flex items-center bg-black-100 border-0 py-1 px-3 focus:outline-none hover:bg-black-200 rounded text-base mt-4 md:mt-0"><p id="dayRight"></p>
               </button></a>
@@ -56,7 +59,6 @@
 
 
     <script src="./routine.js"></script>
-    <script src="./clock.js"></script>
 </body>
 
 </html>
