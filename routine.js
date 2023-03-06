@@ -22,6 +22,7 @@ dayShow.innerHTML = toDay(tday);
 let fullDate = `${year} ${toMonth(tmonth)} ${date}, ${toDay(tday)}`
 document.getElementById("dayRight").innerHTML = fullDate
 
+
 monday = {
     1: "Maths Sr",
     2: "Chemistry D",
@@ -76,6 +77,26 @@ friday = {
 let td = new Date().getDay();
 classes = document.getElementById("routine");
 
+function tomorrow(){
+    if(td == 1){
+        tuesdayShow()
+    }
+    if(td == 2){
+        wednesdayShow()
+    }
+    if(td == 3){
+        thursdayShow()
+    }
+    if(td == 4){
+        fridayShow()
+    }
+    if(td == 5){
+        sundayTom()
+    }
+}
+
+
+
 function mondayShow() {
     classes.innerHTML = `${monday["1"]} <br> ${monday["2"]} <div id="break">Break</div> ${monday["3"]} <div id="break">Lunch Break</div> ${monday["4"]} <br> ${monday["5"]} <br> ${monday["6"]} <div id="break">Break</div> ${monday["7"]} <br> ${monday["8"]} `;
     dayShow.innerHTML = "Monday";
@@ -108,6 +129,10 @@ function saturdayShow() {
     classes.innerHTML = "No Classes today!";
     dayShow.innerHTML = "Saturday";
 };
+function sundayTom(){
+    classes.innerHTML = "No Classes today!";
+    dayShow.innerHTML = "Sunday";
+}
 
 
 if (td == 1) {
