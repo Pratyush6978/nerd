@@ -54,7 +54,7 @@ wednesday = {
     8: "Maths, S"
 }
 thursday = {
-    1: "Saroj Sr",
+    1: "Math Sr",
     2: "Basic Coding",
     3: "Basic Coding",
     4: "Physics Practical",
@@ -91,7 +91,10 @@ function tomorrow(){
         fridayShow()
     }
     if(td == 5){
-        sundayTom()
+        saturdayShow()
+    }
+    if(td == 6){
+        sundayShow()
     }
 }
 
@@ -129,10 +132,7 @@ function saturdayShow() {
     classes.innerHTML = "No Classes today!";
     dayShow.innerHTML = "Saturday";
 };
-function sundayTom(){
-    classes.innerHTML = "No Classes today!";
-    dayShow.innerHTML = "Sunday";
-}
+
 
 
 if (td == 1) {
