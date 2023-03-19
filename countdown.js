@@ -1,4 +1,4 @@
-var countDownDate = new Date("2023-04-17").getTime();
+var countDownDate = new Date("April 18, 2023 12:00:00").getTime();
 
 var x = setInterval(function () {
 
@@ -6,12 +6,12 @@ var x = setInterval(function () {
 
   var distance = countDownDate - now;
 
-  var days = Math.ceil(distance / (1000 * 60 * 60 * 24));
+  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
 
-  document.getElementById("cd").innerHTML = days + " days";
+  document.getElementById("countdown").innerHTML = + days + " days";
 
   if (distance < 0) {
     clearInterval(x);
-    document.getElementById("cd").innerHTML = "EXPIRED";
+    document.getElementById("countdown").innerHTML = "EXPIRED";
   }
-}, 86400000);
+}, 1000);
