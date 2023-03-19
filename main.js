@@ -91,7 +91,7 @@ function tomorrow(){
     if(td == 5){
         saturdayShow()
     }
-    if(td == 6){
+    if(td == 0){
         mondayShow()
     }
 }
