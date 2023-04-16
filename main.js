@@ -100,41 +100,41 @@ function tomorrow(){
 
 function mondayShow() {
     // classes.innerHTML = `${monday["1"]} <br> ${monday["2"]} <div id="break">Break</div> ${monday["3"]} <div id="break">Lunch Break</div> ${monday["4"]} <br> ${monday["5"]} <br> ${monday["6"]} <div id="break">Break</div> ${monday["7"]} <br> ${monday["8"]} `;
-    dayShow.innerHTML = "Good Luck for Exam";
+    dayShow.innerHTML = "Good Luck for Exam!";
 };
 
 function tuesdayShow() {
     //classes.innerHTML = `${tuesday["1"]} <br> ${tuesday["2"]} <div id="break">Break</div> ${tuesday["3"]} <div id="break">Lunch Break</div> ${tuesday["4"]} <br> ${tuesday["5"]} <br> ${tuesday["6"]} <div id="break">Break</div> ${tuesday["7"]} <br> ${tuesday["8"]} `;
     //dayShow.innerHTML = "Tuesday";
-    dayShow.innerHTML = "Good Luck for Exam";
+    dayShow.innerHTML = "Good Luck for Exam!";
 };
 
 function wednesdayShow() {
     //classes.innerHTML = `${wednesday["1"]} <br> ${wednesday["2"]} <div id="break">Break</div> ${wednesday["3"]} <div id="break">Lunch Break</div> ${wednesday["4"]} <br> ${wednesday["5"]} <br> ${wednesday["6"]} <div id="break">Break</div> ${wednesday["7"]} <br> ${wednesday["8"]} `;
     //dayShow.innerHTML = "Wednesday";
-    dayShow.innerHTML = "Good Luck for Exam";
+    dayShow.innerHTML = "Good Luck for Exam!";
 };
 
 function thursdayShow() {
     //classes.innerHTML = `${thursday["1"]} <br> ${thursday["2"]} <div id="break">Break</div> ${thursday["3"]} <div id="break">Lunch Break</div> ${thursday["4"]} <br> ${thursday["5"]} <br> ${thursday["6"]} <div id="break">Break</div> ${thursday["7"]} <br> ${thursday["8"]} `;
     //dayShow.innerHTML = "Thursday";
-    dayShow.innerHTML = "Good Luck for Exam";
+    dayShow.innerHTML = "Good Luck for Exam!";
 };
 
 function fridayShow() {
     //classes.innerHTML = `${friday["1"]} <br> ${friday["2"]} <div id="break">Break</div> ${friday["3"]} <div id="break">Lunch Break</div> ${friday["4"]} <br> ${friday["5"]} <br> ${friday["6"]} <div id="break">Break</div> ${friday["7"]} <br> ${friday["8"]} `;
     //dayShow.innerHTML = "Friday";
-    dayShow.innerHTML = "Good Luck for Exam";
+    dayShow.innerHTML = "Good Luck for Exam!";
 };
 function sundayShow() {
     //classes.innerHTML = "No Classes today!";
     //dayShow.innerHTML = "Sunday";
-    dayShow.innerHTML = "Good Luck for Exam";
+    dayShow.innerHTML = "Good Luck for Exam!";
 };
 function saturdayShow() {
     //classes.innerHTML = "No Classes today!";
     //dayShow.innerHTML = "Saturday";
-    dayShow.innerHTML = "Good Luck for Exam";
+    dayShow.innerHTML = "Good Luck for Exam!";
 };
 
 
