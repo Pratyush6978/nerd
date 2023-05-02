@@ -1,4 +1,4 @@
-var countDownDate = new Date("April 21, 2023 6:00:00").getTime();
+var countDownDate = new Date("May 22, 2023").getTime();
 
 var x = setInterval(function () {
 
@@ -12,6 +12,6 @@ var x = setInterval(function () {
 
   if (distance < 0) {
     clearInterval(x);
-    document.getElementById("countdown").innerHTML = "EXPIRED";
+    document.getElementById("countdown").innerHTML = "Exam Started";
   }
 }, 1000);
